@@ -25,6 +25,11 @@ input.onButtonPressed(Button.B, function(){
     basic.showString("#2:"), + basic.showNumber(num2)
     basic.showIcon(IconNames.Happy)
 })
-
+// Ading a shake functoin 
+input.onGesture(Gesture.Shake,function(){
+    if(num1 < num2){
+        num1
+    }
+})
 
 
