@@ -27,8 +27,13 @@ input.onButtonPressed(Button.B, function(){
 })
 // Ading a shake functoin 
 input.onGesture(Gesture.Shake,function(){
+    basic.clearScreen()
     if(num1 < num2){
-        num1
+        basic.clearScreen()
+        basic.showNumber(num1 )
+        basic.showString( "<")
+         basic.showNumber(num2 )
+      
     }
 })
 
