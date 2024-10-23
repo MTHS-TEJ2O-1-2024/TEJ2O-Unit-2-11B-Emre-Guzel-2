@@ -2,7 +2,7 @@
  *
  * Created by: Emre Guzel
  * Created on: Oct 22 2024
- * This program generates random number from 
+ * This program generates random number from 0-99
 */
 
 // setting the screen 
