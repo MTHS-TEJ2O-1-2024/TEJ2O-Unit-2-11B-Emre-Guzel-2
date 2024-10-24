@@ -40,7 +40,8 @@ while True:
             display.scroll("<")
             display.scroll(num2)
 
-        if num1 > num2:
+        else:
+            num1 > num2
             display.scroll(num1)
             display.scroll(">")
             display.scroll(num2)
